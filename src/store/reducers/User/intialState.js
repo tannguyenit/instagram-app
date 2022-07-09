@@ -1,0 +1,32 @@
+export default {
+  session: {
+    id: null,
+    username: null,
+    avatar: '',
+    email_verified: ''
+  },
+  user_details: {
+    id: null,
+    avatar: null,
+    username: '',
+    firstname: '',
+    surname: '',
+    email: '',
+    bio: '',
+    account_type: '',
+    email_verified: '',
+    joined: '',
+    twitter: '',
+    facebook: '',
+    github: '',
+    instagram: '',
+    phone: '',
+    website: '',
+    isOnline: false,
+    lastOnline: '',
+  },
+  tags: [],
+  mutualUsers: [],
+  username_exist: false,
+  register_status: false,
+}
